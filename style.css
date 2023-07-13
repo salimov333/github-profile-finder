@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    padding: 1rem;
+    min-height: 100vh;
+    background-color: #150f01;
+
+}
+
+.container {
+    background-color: #dcb9a1;
+    border-radius: 10px;
+    min-height: 90vh;
+}
+
+#profileContainer {
+    display: none;
+    background-color: #fad6c3;
+}
+
+#error {
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.boxShadow {
+    box-shadow: 5px -2px 12px rgb(60, 22, 3);
+}
+
+.word-wrap {
+    word-wrap: break-word;
+}
