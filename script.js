@@ -26,7 +26,9 @@ searchForm.addEventListener('submit', function (event) {
     if (username === '') {
         showError('Please enter a GitHub username.');
         return;
-    }
+    };
+
+    followersListContainer.innerHTML = '';
 
     fetchProfile(user_url)
         .then(displayProfile)
